@@ -18,3 +18,12 @@ class TestCalculator:
 
     def test_division(self):
         assert 5 == calculator.divide(10, 2)
+
+    def test_division_by_self(self):
+        assert 1 == calculator.divide(10, 10)
+
+    def test_division_negative_numbers(self):
+        assert -5 == calculator.divide(-10, 2)
+
+    def test_division_decimal_numbers(self):
+        assert 0.5 == calculator.divide(1, 2)
