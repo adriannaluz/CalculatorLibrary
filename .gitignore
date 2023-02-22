@@ -130,3 +130,6 @@ dmypy.json
 
 # txt files
 *.txt
+
+# Pycharm files
+.idea/
