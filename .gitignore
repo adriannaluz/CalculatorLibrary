@@ -79,7 +79,7 @@ target/
 
 # IPython
 profile_default/
-ipython_config.py
+ipython_config.py´
 
 # pyenv
 .python-version
@@ -130,3 +130,6 @@ dmypy.json
 
 # txt files
 *.txt
+
+# Pycharm files
+.idea/
